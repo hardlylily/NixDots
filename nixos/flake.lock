@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1784356753,
+        "narHash": "sha256-12KrbMiWLcf8m7pCvAtZh1ZrgF85ZXDXvfR/fWTKy84=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "61b7c44c4073f0b827768aff0049561b5110ea5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "noctalia": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1784478019,
+        "narHash": "sha256-n3taoYaqMkhUGzvMDvwv+R4Qw7aimrNfKy4f3dsyuas=",
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "rev": "034115fb80b4fc5121b7ff26aedd634a04119884",
+        "type": "github"
+      },
+      "original": {
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "type": "github"
+      }
+    },
+    "proton-cachyos": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1784380369,
+        "narHash": "sha256-y7DjDXHaLQo7npYwArLV0r4m8Uwf8q1gjUVPVT1/brs=",
+        "owner": "powerofthe69",
+        "repo": "proton-cachyos-nix",
+        "rev": "7a1e114a50df886edbf2ad3d79e438b266fbd9b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "powerofthe69",
+        "repo": "proton-cachyos-nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "noctalia": "noctalia",
+        "proton-cachyos": "proton-cachyos",
+        "spicetify-nix": "spicetify-nix"
+      }
+    },
+    "spicetify-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1784442826,
+        "narHash": "sha256-oXizZ5p9MdNicgEPw7mkZD0gezVlCbgeG6aAjXpDyHA=",
+        "owner": "Gerg-L",
+        "repo": "spicetify-nix",
+        "rev": "47c9223179f533174b719a53209aa9ab3e2f4e9c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Gerg-L",
+        "repo": "spicetify-nix",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
